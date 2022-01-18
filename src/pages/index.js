@@ -8,6 +8,8 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import Head from "next/head";
 
+const prefix = '/portfolio';
+
 const Home = () => {
   return (
     <>
