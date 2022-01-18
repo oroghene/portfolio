@@ -8,7 +8,7 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import Head from "next/head";
 
-const prefix = '/portfolio';
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 const Home = () => {
   return (
