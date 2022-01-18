@@ -15,6 +15,7 @@ const Home = () => {
     <>
       <Head>
         <title>Oroghene</title>
+        <link rel="shortcut icon" href={prefix + '../../public/favicon.ico'} />
       </Head>
       <Layout>
         <Section grid>
